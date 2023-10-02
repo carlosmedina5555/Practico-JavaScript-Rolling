@@ -111,5 +111,3 @@
 //     resultado *= base
 // }
 // console.log(resultado)
-
-
