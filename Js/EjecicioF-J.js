@@ -41,11 +41,35 @@
 
 // H) Dado un array de 5 elementos dados por el usuario, ordenar sus valores de forma ascendente y descendente SIN UTILIZAR EL SORT
 
-let array = []
-let contador = 0
-while(contador < 5) {
-    let elementos = +prompt("ingrese un valor numerico")
-    array[array.length] = elementos
-    contador++
-}
-console.log(array)
+// let array = []
+// let contador = 0
+// while(contador < 5) {
+//     let elementos = +prompt("ingrese un valor numerico")
+//     array[array.length] = elementos
+//     contador++
+// }
+// console.log(array)
+// for(index = 0; index < array.length; index++) {
+//     for(i = 0; i < array.length -1; i++) {
+//         if(array[i]> array[i+1]) {
+//             let operacion = array[i]
+//             array[i] = array[i+1]
+//             array[i+1] = operacion
+//         }
+//     }
+// }
+// console.log(`el array ordenado de forma ascendente es ${array}`)
+
+// for(index = 0; index < array.length; index++) {
+//     for(i = 0; i < array.length -1; i++) {
+//         if(array[i] < array[i+1]) {
+//             let operacion = array[i]
+//             array[i] = array[i+1]
+//             array[i+1] = operacion
+//         }
+//     }
+// }
+
+// console.log(`el array ordenado de forma descendiente es ${array}`)
+
+

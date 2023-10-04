@@ -69,10 +69,45 @@
 
 // C) En un concurso de pesca al que se  presentaron por lo menos 100 personas, los primeros 3 lugares son para los peces más pesados. Solicitar al usuario ingresar un mínimo de 5 valores representando el peso de los peces y retornar el pez de mayor peso así como también el segundo y tercer pez de mayor peso.
 
+// let participantes = []
+// let contador = 0 
+// let bandera = true
+// while(bandera) {
+//     let peces = +prompt("ingrese el peso de su pez en kg:")
+//     participantes[participantes.length] = peces
+//     contador++
+
+//     if(contador >= 5) {
+//         let respuesta = prompt("desea agregar otro participante? si/no")
+//         if(respuesta !== "si") {
+//             bandera = false
+//         }
+//     }
+
+//     if (contador >= 100) {
+//         break;
+//     }
 
 
+//     if(participantes-length <= 5) {
+//         alert("tienen que haber un minimo de 5 participantes")
+//         break;
+//     }
+// }
 
-
+// for(peso = 0; peso < participantes.length; peso++) {
+//     for(index = 0; index < participantes.length - 1; index++) {
+//         if(participantes[index] < participantes[index + 1]) {
+//             let operacion = participantes[index]
+//             participantes[index] = participantes[index + 1]
+//             participantes[index +1] = operacion
+//         }
+//     }
+// }
+// console.log(participantes)
+// console.log(`el pez de mayor peso es el ${participantes[0]}`)
+// console.log(`el pez de mayor peso es el ${participantes[1]}`)
+// console.log(`el pez de mayor peso es el ${participantes[2]}`)
 
 
 
