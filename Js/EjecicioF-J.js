@@ -73,3 +73,54 @@
 // console.log(`el array ordenado de forma descendiente es ${array}`)
 
 
+// I) Dado un array de n elementos (debe ser mayor a 10 elementos pero los puede seleccionar ustedes). Contar cuantas veces se repiten los números.
+
+
+// let array = [4, 3, 8, 3, 2, 1, 5, 8, 4, 0, 4];
+
+// console.log(array);
+
+// for (let i = 0; i < array.length; i++) {
+//     let contador = 0;
+//     for (let j = 0; j < array.length; j++) {
+//         if (array[i] === array[j]) {
+//             contador++;
+//         }
+//     }
+//     console.log(`${array[i]} se repite ${contador} veces`)
+// }
+
+
+// J) Dado un array de strings, devolver la palabra más larga (la que posea mayor cantidad de letras) SIN UTILIZAR LA PROPIEDAD  .LENGTH
+
+
+// let array = ["carlos", "perro", "gato", "comida", "televisor"]
+
+// function palabraMasLarga(palabras) {
+//     if(palabras === undefined || palabras[0] === undefined) {
+//         return null
+//     }
+//     let palabraMasLarga = palabras[0]
+//     let maximo = 0
+//     for (let i = 0; palabras[0][i] !== undefined; i++) {
+//         maximo = i
+//         }
+//     for(let j = 1; palabras[j] !== undefined; j++) {
+//         let longitud = 0
+//         while(palabras[j][longitud] !== undefined) {
+//             longitud++
+//         }
+//         if (longitud > maximo) {
+//             maximo = longitud
+//             palabraMasLarga = palabras[j]
+//         }
+//     }
+//     return palabraMasLarga
+//     }
+    
+// let palabraMayor = palabraMasLarga(array)
+// console.log(`La palabra mas larga es: "${palabraMayor}"`)
+
+
+
+
