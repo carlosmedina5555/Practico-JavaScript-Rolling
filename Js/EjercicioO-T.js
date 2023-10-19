@@ -66,12 +66,12 @@
 
 // T) Solicitando al usuario los datos necesarios, obtener el perímetro de un cuadrado.
 
-function perimetro (lado) {
-    let ladosIguales = 4
-    return (lado * ladosIguales)
-}
+// function perimetro (lado) {
+//     let ladosIguales = 4
+//     return (lado * ladosIguales)
+// }
 
-let cuadrado = +prompt("Ingrese el valor de un lado del cuadrado Metros")
-let perimetroCuadrado = perimetro(cuadrado)
-console.log(`un lado del cuadrado mide ${cuadrado} Metros`)
-console.log (`el perimetro total de el cuadrado es ${perimetroCuadrado} Metros`)
+// let cuadrado = +prompt("Ingrese el valor de un lado del cuadrado Metros")
+// let perimetroCuadrado = perimetro(cuadrado)
+// console.log(`un lado del cuadrado mide ${cuadrado} Metros`)
+// console.log (`el perimetro total de el cuadrado es ${perimetroCuadrado} Metros`)
