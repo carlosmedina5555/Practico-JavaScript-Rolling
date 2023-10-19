@@ -14,3 +14,4 @@
 
 // V) Dibujar una pirámide y un cuadrado en la consola utilizando el símbolo *
 
+let lala = 0
