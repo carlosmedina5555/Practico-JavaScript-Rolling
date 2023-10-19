@@ -91,18 +91,19 @@
 
 // O) Dado un número de 3 o 4 dígitos, dividir este número en sus diferentes partes y crear un array con ellas. Ej:  let número = 324;   resultado esperado: [300, 20, 4];
 
-let numero = 587
-let resultado = []
+// let numero = 587
+// let resultado = []
 
-let unidades = numero % 10
-console.log(unidades)
-let decenas = Math.floor((numero % 100) / 10) * 10
-console.log(decenas)
-let centenas = Math.floor((numero % 1000) / 100) * 100
-console.log(centenas)
+// let unidades = numero % 10
+// console.log(unidades)
+// let decenas = Math.floor((numero % 100) / 10) * 10
+// console.log(decenas)
+// let centenas = Math.floor((numero % 1000) / 100) * 100
+// console.log(centenas)
 
 
-resultado.push(centenas)
-resultado.push(decenas)
-resultado.push(unidades)
-console.log(resultado)
+// resultado.push(centenas)
+// resultado.push(decenas)
+// resultado.push(unidades)
+// console.log(resultado)
+
