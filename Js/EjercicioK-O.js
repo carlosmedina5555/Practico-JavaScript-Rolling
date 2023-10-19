@@ -70,21 +70,39 @@
 
 // N) Dados 2 arrays de 10 elementos cada uno, encontrar los elementos que sean iguales en ambos arrays y crear un tercer array con estos elementos.
 
-let array = [3, 26, 54, 74, 34, 62, 23, 52 ,64, 22]
-let segundoArray = [2, 23, 34, 66, 33, 52, 64, 76, 11, 99]
-let tercerArray = []
-let bandera = true
-console.log(array, segundoArray)
-for(let i = 0; i < array.length; i++) {
-    let index = array[i]
-    for(let j = 0; j < segundoArray.length; j++) {
-        if(array[i] === segundoArray[j]) {
-            tercerArray[tercerArray.length] = index
-            console.log(`el numero se repite ${index}`)
-            bandera = false
-        }
-    }
-}
+// let array = [3, 26, 54, 74, 34, 62, 23, 52 ,64, 22]
+// let segundoArray = [2, 23, 34, 66, 33, 52, 64, 76, 11, 99]
+// let tercerArray = []
+// let bandera = true
+// console.log(array, segundoArray)
+// for(let i = 0; i < array.length; i++) {
+//     let index = array[i]
+//     for(let j = 0; j < segundoArray.length; j++) {
+//         if(array[i] === segundoArray[j]) {
+//             tercerArray[tercerArray.length] = index
+//             console.log(`el numero se repite ${index}`)
+//             bandera = false
+//         }
+//     }
+// }
 
-console.log(tercerArray)
+// console.log(tercerArray)
 
+
+// O) Dado un número de 3 o 4 dígitos, dividir este número en sus diferentes partes y crear un array con ellas. Ej:  let número = 324;   resultado esperado: [300, 20, 4];
+
+let numero = 587
+let resultado = []
+
+let unidades = numero % 10
+console.log(unidades)
+let decenas = Math.floor((numero % 100) / 10) * 10
+console.log(decenas)
+let centenas = Math.floor((numero % 1000) / 100) * 100
+console.log(centenas)
+
+
+resultado.push(centenas)
+resultado.push(decenas)
+resultado.push(unidades)
+console.log(resultado)
